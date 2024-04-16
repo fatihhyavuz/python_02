@@ -9,3 +9,20 @@ print(name.isalpha()) # if your valuw contains only letters the consequence be t
 print(name.count("a")) # it counts how many "a" are there in this value 
 print(name.replace("a","o"))
 print(name*3)
+print(name.split("a")) 
+print("oohhhooo".strip("o"))
+
+import math 
+pi = -3.14 
+x = 1 
+y = 2 
+z = 3
+"""
+print(round(pi)) # 3 it makes the nunber an int 
+print( math.ceil(pi)) # it give us the nearest largest int 
+print (math.floor(pi)) # it give us the nearest lowest int
+print(abs(pi))  # it give us the distance between number and zero 
+print(math.sqrt(625)) #it gives us the square smell of the number
+print(max(x,y,z))
+print(min(x,y,z))
+"""
