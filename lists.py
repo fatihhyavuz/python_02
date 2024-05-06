@@ -21,3 +21,7 @@ print( notes)
 
 notes.insert(2, 99)
 print(notes)
+
+num = input("bir sayi giriniz")
+
+

@@ -49,8 +49,30 @@ for n in h:
         new.append(n)
 print(new)    
 
-# numpy kullanarak 
+ 
 
 print(h>3)
+# numpy kullanarak
 print(h[h>3])
+h[h>=3]
+h[h!=3]
+h[h<3]
+
+h = np.array([1,2,3,4,5,6]) 
+
+h/3 
+h * 5 /10 
+h  + 3 
+h** 2 
+h - 8 
+
+np.subtract(h,1) # cikarma 
+np.add(h,3) # toplamaa
+np.mean(h) # ortalama 
+np.sum(h) # tum elemanlari topla
+np.min(h)
+np.max(h)
+np.var(h)
+
+
 
